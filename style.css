@@ -1,0 +1,192 @@
+/* cuerpo en si */
+body{
+    background: hsl(75,0%,10%);
+}
+h2{
+    color: hsl(75,0%,10%);
+}
+iframe{
+    border-radius: 10px;
+}
+.ft{
+    height: 100px;
+    width: 200px;
+}
+.rox{
+    padding-left: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    background-color: rgb(174, 0, 255);
+    margin: 0px;
+    
+}
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.texto{
+    font-size: 5px;
+}
+/* Escalas de cuadros de animacion */
+.animation-1{
+animation-name: ant-1;
+animation-duration: 1s;
+animation-delay: 0s;
+background: rgb(210, 98, 251);
+border-radius: 10px;
+margin: 40px;
+padding: 15px;
+border: 0px;
+color: white;
+}
+.animation-1 :hover{
+
+}
+
+
+
+.animation-2{
+    animation-name: ant-2;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    background: rgb(229, 38, 229);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;
+    }
+.animation-3{
+    animation-name: ant-3;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    background: rgb(81, 46, 254);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;    
+}
+.animation-4{
+    animation-name: ant-4;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    background: rgb(144, 38, 189);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;    
+}
+.animation-5{
+    animation-name: ant-5;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    background: rgb(254, 46, 192);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;    
+}
+.animation-6{
+    animation-name: ant-6;
+    animation-duration: 25s;
+    animation-delay: 0s;
+    background: rgb(254, 46, 105);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;    
+}
+.animation-7{
+    animation-name: ant-7;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    background: rgb(254, 53, 46);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    border: 0px;    
+}
+/* Animaciones */
+
+@keyframes ant-1{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-2{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-3{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-4{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-5{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-6{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+
+@keyframes ant-7{
+    0%{
+        filter: opacity(0%);
+        border-radius: 70%;
+    }
+    100%{
+        filter: opacity(100%);
+        border-radius: 10px;
+    }
+}
+/* Hover's */
