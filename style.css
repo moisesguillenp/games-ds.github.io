@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(229,230,228);
+    background: linear-gradient(90deg, rgba(229,230,228,0.9836309523809523) 0%, rgba(107,107,107,1) 100%);
+}
+
+li{
+    color: black;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    margin: 10px 10px;
+    background: rgb(222, 220, 220);
+}
+
+a{
+    margin: 10px 10px 10px 10px;
+    text-decoration-line: none;
+}
+
+h3{
+    font-family: fantasy
+}
+
+.tuto{
+    font-family: fantasy;
+}
+
+.container{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.buscador2{
+    margin: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titulo{
+    color: #ffffff;
+}
+
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px 40px;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+}
+
+.navbar{
+    color: white;
+}
+
+.juegos{
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+.juego-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 10px
+}
+/* Buscador */
+@import url('sreach.css');
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: initial;
+    align-items: initial;
+}
+
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    font-weight: 600;
+}
+
+#listaArticulos{
+    font-size: 30px;
+    list-style: none;
+    color: #ffffff;
+}
+li{
+    margin: 5px 5px;
+}
+
+.filtro{
+    display: none;
+}
