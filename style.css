@@ -6,12 +6,16 @@
 }
 
 body{
-    background: rgb(229,230,228);
-    background: linear-gradient(90deg, rgba(229,230,228,0.9836309523809523) 0%, rgba(107,107,107,1) 100%);
+    background: rgb(120,255,73);
+    background: linear-gradient(90deg, rgba(120,255,73,1) 0%, rgba(154,255,206,1) 100%);
 }
 
 li{
     color: black;
+}
+
+ul a img h3 button:hover{
+    filter: brightness(10px);
 }
 
 button{
@@ -25,6 +29,7 @@ button{
 a{
     margin: 10px 10px 10px 10px;
     text-decoration-line: none;
+    color: black;
 }
 
 h1{
@@ -68,6 +73,7 @@ h3{
 .icon{
     height: 60px;
     width: 60px;
+    border-radius: 50%;
 }
 
 .navbar{
@@ -75,16 +81,33 @@ h3{
 }
 
 .juegos{
-    height: 250px;
-    width: 200px;
+    height: 230px;
+    width: 180px;
     margin-left: 10px;
 
 }
 .juego-img{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     border-radius: 10px
 }
+
+.bg-green{
+    background-color: transparent;
+}
+
+.navbar-nav{
+    color: black;
+}
+
+.navbar.item{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
 /* Buscador */
 @import url('sreach.css');
 
@@ -108,6 +131,7 @@ input{
     font-size: 30px;
     list-style: none;
     color: #ffffff;
+    margin: 10px 10px;
 }
 li{
     margin: 5px 5px;

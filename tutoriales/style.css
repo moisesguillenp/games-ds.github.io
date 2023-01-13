@@ -46,6 +46,11 @@ h3{
     vertical-align: middle;
 }
 
+.tns{
+    border: none;
+    background-color: transparent;
+}
+
 .titulo{
     color: #ffffff;
 }
