@@ -17,8 +17,8 @@ body{
     color: white;
     padding: 5px;
     margin: 30px 20px;
-    height: 350px;
-    width: 550px;
+    height: 200px;
+    width: 510px;
     cursor: pointer;
     font-weight: bold;
     position: relative;
@@ -44,8 +44,8 @@ body{
 }
 .peli{
     border-radius: 10px;
-    height: 260px;
-    width: 540px;
+    height: 110px;
+    width: 500px;
 }
 .titulo{
     color: white;
