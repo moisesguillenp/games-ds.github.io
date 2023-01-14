@@ -25,6 +25,27 @@ button{
     color: black;
     margin: 10px 10px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+}
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        45deg,
+        #d706cf, #f70606, #d706cf,#f70606,
+        #d706cf, #f70606,#ffffff,#d706cf,#f70606
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
 }
 
 a{
@@ -131,7 +152,7 @@ h3{
 
 section{
     width: 500px;
-    height: 100vh;
+    height: 700px;
     display: flex;
     flex-direction: initial;
     align-items: initial;
@@ -150,6 +171,7 @@ input{
     list-style: none;
     color: #ffffff;
     margin: 5px 5px;
+    
 }
 .filtro{
     display: none;
