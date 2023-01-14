@@ -30,6 +30,7 @@ button{
 a{
     text-decoration-line: none;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 h1{
@@ -41,6 +42,16 @@ h1{
 h3{
     font-family: fantasy;
     color: black;
+    font-size: 10px;
+}
+
+.game-title{
+    font-family: fantasy;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px 0;
 }
 
 .tt{
@@ -89,8 +100,9 @@ h3{
 .juegos{
     height: 200px;
     width: 150px;
-    margin-left: 10px;
-
+    margin: 30px 30px;
+    border-radius: 10px;
+    border: none;
 }
 .juego-img{
     height: 130px;
@@ -118,7 +130,7 @@ h3{
 @import url('sreach.css');
 
 section{
-    width: 100vw;
+    width: 500px;
     height: 100vh;
     display: flex;
     flex-direction: initial;
@@ -137,12 +149,8 @@ input{
     font-size: 30px;
     list-style: none;
     color: #ffffff;
-    margin: 10px 10px;
-}
-li{
     margin: 5px 5px;
 }
-
 .filtro{
     display: none;
 }
