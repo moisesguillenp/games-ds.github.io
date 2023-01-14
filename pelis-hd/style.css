@@ -16,9 +16,9 @@ body{
     border-radius: 10px;
     color: white;
     padding: 5px;
-    margin: 30px 20px;
+    margin: 30px 10px;
     height: 200px;
-    width: 510px;
+    width: 300px;
     cursor: pointer;
     font-weight: bold;
     position: relative;
@@ -44,8 +44,8 @@ body{
 }
 .peli{
     border-radius: 10px;
-    height: 110px;
-    width: 500px;
+    height: 180px;
+    width: 290px;
 }
 .titulo{
     color: white;
@@ -54,7 +54,7 @@ body{
     font-weight: bold;
 }
 .portada{
-    height: 400px;
+    height: 300px;
     width: 100px;
 }
 
@@ -79,7 +79,7 @@ body{
 
 
 /* Buscador */
-@import url('sreach.css');
+@import url('buscador.css');
 
 section{
     width: 500px;
@@ -102,7 +102,6 @@ input{
     list-style: none;
     color: #ffffff;
     margin: 5px 5px;
-    
 }
 .filtro{
     display: none;
