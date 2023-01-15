@@ -1,6 +1,12 @@
 body{
     background: rgb(51,51,51);
-    background: linear-gradient(90deg, rgba(51,51,51,1) 20%, rgba(51,51,51,1) 85%);
+    background: linear-gradient(90deg, rgba(51,51,51,1) 20%, rgb(51, 51, 51,1) 85%);}
+h5{
+    color: white;
+    font-size: 5px;
+}
+.sr{
+    margin: 30px 50px 0 0;
 }
 .icon{
     height: 60px;
@@ -50,34 +56,13 @@ body{
 .titulo{
     color: white;
     font-size: 25px;
-    font-family: cursive;
-    font-weight: bold;
+    font-family: fantasy;
+    font-weight: lighter;
 }
 .portada{
     height: 250px;
     width: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Buscador */
 @import url('buscador.css');
 
@@ -107,4 +92,61 @@ input{
 }
 .filtro{
     display: none;
+}
+
+
+
+@media(max-width:500px){
+    .boton-peli{
+        margin: 30px 10px;
+        height: 280px;
+        width: 300px;
+    }
+    .peli{
+        border-radius: 10px;
+        height: 180px;
+        width: 290px;
+    }
+    .titulo{
+        color: white;
+        font-size: 25px;
+        font-family: fantasy;
+        font-weight: lighter;
+    }
+}
+
+
+@media(min-width:700px){
+    .icon{
+        height: 70px;
+        width: 70px;
+    }
+    .boton-peli{
+        padding: 5px;
+        margin: 30px 40px;
+        height: 400px;
+        width: 600px;
+    }
+    .peli{
+        border-radius: 10px;
+        height: 290px;
+        width: 580px;
+        margin: 0px 5px;
+    }
+    .titulo{
+        color: white;
+        font-size: 30px;
+        font-family: fantasy;
+        font-weight: lighter;
+    }
+    .portada{
+        height: 400px;
+        width: 100px;
+    }
+}
+@media(min-width:1200px){
+    .portada{
+        height: 500px;
+        width: 100px;
+    }
 }
