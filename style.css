@@ -109,7 +109,7 @@
         vertical-align: middle;
     }
 }
-@media(max-width:2000px){
+@media(min-width:910px){
     .game-title{
         color: black;
         font-size: 15px;
