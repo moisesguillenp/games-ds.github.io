@@ -60,7 +60,7 @@
 
 /* Juegos */
 
-@media(max-width:721px){
+@media(max-width:700px){
     .game-title{
         color: black;
         font-size: 15px;
@@ -109,7 +109,7 @@
         vertical-align: middle;
     }
 }
-@media(min-width:910px){
+@media(max-width:1200px){
     .game-title{
         color: black;
         font-size: 15px;
@@ -122,7 +122,7 @@
     }
     .juegos{
         height: 170px;
-        width:15%;
+        width:40%;
         margin: 5px;
         padding: 20px;
         border: 1px solid rgb(114, 235, 116);
