@@ -21,14 +21,14 @@ window.addEventListener("click", function(event) {
     }
   }
 });
-const openButton = document.getElementById("myButton");
-const closeButton = document.getElementById("closeButton");
-const panel = document.getElementById("myPanel");
+const btnAbrir = document.getElementById('btn-panel');
+const btnCerrar = document.getElementById('btn-cerrar');
+const panel = document.getElementById('panel');
 
-openButton.addEventListener("click", () => {
-  panel.style.display = "block";
+btnAbrir.addEventListener('click', () => {
+  panel.style.display = 'block';
 });
 
-closeButton.addEventListener("click", () => {
-  panel.style.display = "none";
+btnCerrar.addEventListener('click', () => {
+  panel.style.display = 'none';
 });
