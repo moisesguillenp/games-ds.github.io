@@ -23,10 +23,7 @@
 }
 
 #myButton {
-  position: relative;
-  transform: translate(-50%, -50%);
-  padding: 12px 24px;
-  font-size: 18px;
+
   }
 
 #myPanel {
