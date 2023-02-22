@@ -22,38 +22,25 @@
     width: 30px;
 }
 
-#myButton {
-position: fixed;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  }
-
-#myPanel {
+.panel {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
+  width: 80%;
+  max-width: 600px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-#myPanel h2 {
+.panel h2 {
   margin-top: 0;
 }
 
-#closeButton {
-  margin-top: 10px;
-  padding: 8px 16px;
-  font-size: 14px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+.panel p {
+  margin-bottom: 10px;
 }
-
 
 
 
