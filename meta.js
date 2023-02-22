@@ -21,3 +21,14 @@ window.addEventListener("click", function(event) {
     }
   }
 });
+const openButton = document.getElementById("myButton");
+const closeButton = document.getElementById("closeButton");
+const panel = document.getElementById("myPanel");
+
+openButton.addEventListener("click", () => {
+  panel.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+  panel.style.display = "none";
+});
