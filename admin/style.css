@@ -1,0 +1,33 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input{
+    width: 40%;
+  }
+  .btn123{
+    border-radius: 10px;
+  }
+  .text{
+    text-align: center;
+    vertical-align: middle;
+  }
+  .recuadro{
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px;
+    text-size-adjust: 40px;
+    font-size: 18px;
+  }
+  .ashe{
+    background-color: rgb(200, 200, 200);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    width: 90%;
+  }
