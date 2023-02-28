@@ -1,5 +1,5 @@
 function modificarParte() {
-    let nuevoTexto = document.getElementById("nuevo-texto").value;
+    let nuevoTexto = document.getElementById("nuevo-texto1").value;
   
     let parteModificar = document.getElementById("parte-modificar");
   
@@ -7,7 +7,7 @@ function modificarParte() {
   }
   
   function modificarParte1() {
-    let nuevoTexto = document.getElementById("nuevo-texto").value;
+    let nuevoTexto = document.getElementById("nuevo-texto2").value;
   
     let parteModificar = document.getElementById("parte-modificar1");
   
@@ -15,7 +15,7 @@ function modificarParte() {
   }
   
   function modificarParte2() {
-    let nuevoTexto = document.getElementById("nuevo-texto").value;
+    let nuevoTexto = document.getElementById("nuevo-texto3").value;
   
     let parteModificar = document.getElementById("parte-modificar2");
   
