@@ -32,3 +32,14 @@ btnAbrir.addEventListener('click', () => {
 btnCerrar.addEventListener('click', () => {
   panel.style.display = 'none';
 });
+
+
+
+window.addEventListener("load", function () {
+        document.getElementById("contenedor").style.display = "block";
+      });
+
+      // Cerrar el contenedor al hacer clic en el botón de cerrar
+      document.getElementById("cerrar").addEventListener("click", function () {
+        document.getElementById("contenedor").style.display = "none";
+      });
