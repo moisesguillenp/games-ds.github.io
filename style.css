@@ -66,33 +66,44 @@
         background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
         dientdient(to right, #267871, #136a8a);
         border-radius: 10px;
-        padding: 5px;
+        padding: 2px;
       }
       
       
       .ds-partner{
         border-radius: 50%;
-        height: 70%;
+        height: 65%;
         margin: 3px;
         position: relative;
         
       }
       .ds-name{
-        font-weight: 10px;
+        font-size: 25px;
         position: relative;
+        font-weight: 10px;
+        font-family: Sans-Serif;
       }
+
+    @media(min-width:900px){
+     .ds-name{
+        font-size: 40px;
+        position: relative;
+        font-weight: 10px;
+        font-family: Sans-Serif;
+      }
+    }
       
       .server{
-        height: 15%;
+        height: 20%;
         width: 90%;
         border: 1px solid #979797;
-        margin: 3px;
+        margin: 5px;
         border-radius: 10px;
         background: transparent;
       }
       .banner{
-        height: 80%;
-        width: 70%;
+        height: 75%;
+        width: 65%;
         border-radius: 10px;
         margin: 2px;
       }
